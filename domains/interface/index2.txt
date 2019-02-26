@@ -1,0 +1,15 @@
+<?php
+use ru\MaksBmt\Car;
+use ru\MaksBmt\Aircraft;
+
+include_once 'a.php';
+include_once 'b.php';
+include_once 'c.php';
+include_once 'd.php';
+
+//$car = new ru\MaksBmt\Car();
+$car = new Car();
+ $car -> move();
+ 
+ $air = new Aircraft();
+ $air -> fly();
