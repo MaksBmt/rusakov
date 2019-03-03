@@ -13,7 +13,7 @@ $layout_data = [
     'title' => 'Главная страница сайта',
     'user_name' => 'Константин',
     'user_avatar' => 'img/user.jpg',
-    'categories_list' => $categories_list,
+    'mine_categories' => $mine_categories, 
     'is_auth' => (bool) rand(0, 1) // проверка на авторизацию
 ];
 // массив тела сраницы
