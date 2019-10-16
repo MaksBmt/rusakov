@@ -6,7 +6,7 @@ if ( $a == 'Красный' ) {$counter_1 = '#F50004';
 					   }
 if ( $a == 'Желтый' ) { $counter_1 = '#F1CA00';$sel_2= 'selected';}
 if ( $a == 'Зеленый' ) {$counter_1 = '#16EC05';$sel_3= 'selected';}
-//$_SESSION['coun'] = $counter_1; 
+$_SESSION['coun'] = $counter_1; 
 /*$a = $_POST[ 'color' ];
 if ( $a == 'Красный' ){
 //$counter_1='#F50004';
